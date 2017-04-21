@@ -6,6 +6,8 @@
 2. 在小AnchorPane生成对应图片
 
 举个画圆例子：
+
+
     M50,0
     A10,10 0,0,0 50,50
     A10,10 0,0,0 50,0
@@ -18,6 +20,8 @@
 3. 调用DebugStage的addDebug方法，添加需要挪动位置的Node
 4. 打开程序，拖拖拖，记住位置
 5. 回到代码中修改位置
+
+举个例子：
 
     DebugStage debugStage = new DebugStage();
     debugStage.addDebug(...);
